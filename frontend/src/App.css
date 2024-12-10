@@ -1,0 +1,115 @@
+/* Body */
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  /* Updated to use Roboto for body text */
+}
+
+/* HTML and body elements */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Background gradient and center */
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33, 0.8) 100%);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Form card */
+.form-card {
+  width: 50%;
+  max-width: 350px;
+  padding: 0% 25% 0% 25%;
+}
+
+/* Form title with new font */
+.form-title {
+  font-size: 42px;
+  font-family: 'Lobster', cursive;
+  /* Updated to use Lobster font for titles */
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #e8e8e8;
+  padding-bottom: 12px;
+}
+
+/* Form subtitle */
+.form-subtitle {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  /* Updated to use Roboto font for subtitles */
+  letter-spacing: 0.5px;
+  color: #afafaf;
+  padding-bottom: 24px;
+}
+
+/* Input and button styles */
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: rgb(175, 175, 175);
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+}
+
+.auth-input {
+  background-color: #3e404b;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  /* Updated to use Roboto font for input text */
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+}
+
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: white;
+  background-color: #fa541c;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  /* Updated to use Roboto for buttons */
+  cursor: pointer;
+  transition: all .44s ease;
+}
+
+.auth-button:hover {
+  filter: brightness(145%);
+}
+
+/* Chat wrapper */
+.chat-wrapper {
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
+  color: white;
+  background: rgb(43, 47, 60);
+  font-family: 'Roboto', sans-serif;
+  /* Updated to use Roboto for chat text */
+}
